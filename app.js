@@ -43,3 +43,13 @@ function calculateBirthday() {
   console.log(`Day of the week: ${day_of_week}`);
   checkGender();
 }
+//   check gender function
+function checkGender() {
+  let radios = document.getElementsByName("radio");
+  if (radios[0].checked == true) {
+    gender = "Male";
+  } else if (radios[1].checked == true) {
+    gender = "Female";
+  } else {
+    console.log("click on your gender");
+  }
