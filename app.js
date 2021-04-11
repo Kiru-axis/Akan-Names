@@ -57,18 +57,39 @@ function checkGender() {
   if (gender == "Male") {
     if (day_of_week == 0) {
       result_data.innerHTML = `The day of the week is ${days_of_week[0]} and your Akan name is ${male_names[0]}`;
-    } else if (day_of_week == 1 ) {
+    } else if (day_of_week == 1) {
       result_data.innerHTML = `The day of the week is ${days_of_week[1]} and your Akan name is ${male_names[1]}`;
-    } else if ((day_of_week = 2 )) {
+    } else if ((day_of_week = 2)) {
       result_data.innerHTML = `The day of the week is ${days_of_week[2]} and your Akan name is ${male_names[2]}`;
-    } else if ((day_of_week = 3 )) {
+    } else if ((day_of_week = 3)) {
       result_data.innerHTML = `The day of the week is ${days_of_week[3]} and your Akan name is ${male_names[3]}`;
-    } else if ((day_of_week = 4 )) {
+    } else if ((day_of_week = 4)) {
       result_data.innerHTML = `The day of the week is ${days_of_week[4]} and your Akan name is ${male_names[4]}`;
-    } else if ((day_of_week = 5 )) {
+    } else if ((day_of_week = 5)) {
       result_data.innerHTML = `The day of the week is ${days_of_week[5]} and your Akan name is ${male_names[5]}`;
-    } else if ((day_of_week = 6 )) {
+    } else if ((day_of_week = 6)) {
       result_data.innerHTML = `The day of the week is ${days_of_week[6]} and your Akan name is ${male_names[6]}`;
-    } else if ((day_of_week = 7 )) {
+    } else if ((day_of_week = 7)) {
       result_data.innerHTML = `The day of the week is ${days_of_week[7]} and your Akan name is ${male_names[7]}`;
     }
+
+    // female_names
+  } else if ((gender = "female")) {
+    if (day_of_week == 0) {
+      result_data.innerHTML = `The day of the week is: ${days_of_week[0]} and your Akan name is: ${female_names[0]}`;
+    } else if (day_of_week == 1) {
+      result_data.innerHTML = `The day of the week is: ${days_of_week[1]} and your Akan name is: ${female_names[1]}`;
+    } else if ((day_of_week = 2))
+      result_data.innerHTML = `The day of the week is: ${days_of_week[2]} and your Akan name is: ${female_names[2]}`;
+  } else if ((day_of_week = 3)) {
+    result_data.innerHTML = `The day of the week is: ${days_of_week[3]} and your Akan name is: ${female_names[3]}`;
+  } else if ((day_of_week = 4)) {
+    result_data.innerHTML = `The day of the week is: ${days_of_week[4]} and your Akan name is: ${female_names[4]}`;
+  } else if ((day_of_week = 5)) {
+    result_data.innerHTML = `The day of the week is: ${days_of_week[5]} and your Akan name is: ${female_names[5]}`;
+  } else if ((day_of_week = 6)) {
+    result_data.innerHTML = `The day of the week is: ${days_of_week[6]} and your Akan name is: ${female_names[6]}`;
+  } else if ((day_of_week = 7)) {
+    result_data.innerHTML = `The day of the week is: ${days_of_week[7]} and your Akan name is: ${female_names[7]}`;
+  }
+}
