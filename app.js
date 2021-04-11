@@ -33,3 +33,13 @@ function getInput() {
   console.log(`${MM}`);
   console.log(`${DD}`);
 }
+
+//calculate birthday function
+function calculateBirthday() {
+  getInput();
+  day_of_week =
+    (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7;
+  day_of_week = Math.floor(day_of_week);
+  console.log(`Day of the week: ${day_of_week}`);
+  checkGender();
+}
