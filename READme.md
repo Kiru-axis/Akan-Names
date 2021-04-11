@@ -14,6 +14,6 @@
     + Radio option for either male or female
     + Submit button 
 1. Link
-
+    + [live-link](https://kiru-axis.github.io/Akan-Names/)
 1. Author
     #### Peter Kiru
