@@ -97,4 +97,4 @@ function checkGender() {
   }
   console.log(result_data = document.getElementById("result"));
 }
-// console.log(result_data = document.getElementById("result"));
+console.log(result_data = document.getElementById("result"));
