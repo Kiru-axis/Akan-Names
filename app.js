@@ -93,3 +93,4 @@ function checkGender() {
     result_data.innerHTML = `The day of the week is: ${days_of_week[7]} and your Akan name is: ${female_names[7]}`;
   }
 }
+console.log(result_data = document.getElementById("result"));
