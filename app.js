@@ -24,3 +24,7 @@ let female_names = [
   "Afua",
   "Ama",
 ];
+let gender;
+let raw_year, CC, MM, DD, YY, day_of_week;
+
+let result_data = document.getElementById("result");
