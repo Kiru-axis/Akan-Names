@@ -28,6 +28,7 @@
       <br>
       <!-- form -->
       <form class="row g-3">
+        <!-- first input part -->
         <div class="col-auto">
           <input
             class="form-control"
@@ -55,5 +56,41 @@
             aria-label=""
           />
         </div>
+        <!-- second input part -->
+      </form>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="radio"
+          id="flexRadioDefault1"
+        />
+        <label class="form-check-label" for="flexRadioDefault1" value="Male">
+          Male
+        </label>
+      </div>
+      <br>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="radio"
+          id="flexRadioDefault2"
+          checked
+        />
+        <label class="form-check-label" for="flexRadioDefault2" value="Female">
+          Female
+        </label>
+      </div>
+      <hr>
+      <div class="col-auto">
+        <button
+          type="submit"
+          class="btn btn-primary mb-3"
+          onclick="calculateBirthday()"
+        >
+          Calculate Birthday
+        </button>
+      </div>
   </body>
 </html>
