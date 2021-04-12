@@ -20,12 +20,12 @@
     + Bootstrap
     + Javascript
 1. Behaviour Driven Development(BDD)
-    **Display form for entering year, month & day and picking gender**
-        + Input: _User enters the year he/she was born_
-        + Input: _User enters the month he/she was born_
-        + Input: _User enters the day he/she was born_
-        + Input: _User enters the Gender_
-        + Output: _Displays your Akan name from the gender selected with the day you were born_
+**Display form for entering year, month & day and picking gender**
++ Input: _User enters the year he/she was born_
++ Input: _User enters the month he/she was born_
++ Input: _User enters the day he/she was born_
++ Input: _User enters the Gender_
++ Output: _Displays your Akan name from the gender selected with the day you were born_
 1. Link
     + [live-link](https://kiru-axis.github.io/Akan-Names/)
 1. Author
