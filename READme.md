@@ -20,7 +20,7 @@
     + Bootstrap
     + Javascript
 1. Behaviour Driven Development(BDD)
-**Display form for entering year, month & day and picking gender**
++ **Display form for entering year, month & day and picking gender**
 + Input: _User enters the year he/she was born_
 + Input: _User enters the month he/she was born_
 + Input: _User enters the day he/she was born_
